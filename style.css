@@ -1,57 +1,89 @@
 body {
     background-color: rgb(212, 212, 212);
     text-align: center;
-    width: 90%;
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
 }
 
 div.content {
     width: 800px;
-    align-items: center;
     background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-div.content>h1 {
-    margin-bottom: 30px;
+div.title {
+    margin-top: 0;
+    background-color: rgb(88, 88, 182);
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-div#main-content, div#lawan-content {
+div.title>h1 {
+    display: inline-block;
+}
+div.player {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div#main-content{
     display: flex;
     justify-content: center;
 }
 
-div#main-content>.pilihan, div#lawan-content>.pilihan  {
-    width: 150px;
-    height: 150px;
-    border: 1px solid black;
+div#main-content>.pilihan  {
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgb(53, 53, 156);
     margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 50px;
 }
-div#main-content>.pilihan:hover {
+
+div.player img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+div.player img.pil-kamu {
+    transform: rotate(90deg);
+}
+
+div.player img.pil-lawan {
+    transform: rotate(270deg);
+}
+
+div#main-content>.cobaHover:hover {
     opacity: .5;
     cursor: pointer;
 }
 
-img {
+div#main-content>.pilihan>img {
     width: 100%;
     height: 100%;
 }
 
-
-div.content>h5 {
-    padding: 10px;
-    font-weight: bold;
+h5 {
     font-size: 30px;
+    font-weight: bold;
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(53, 53, 156);
     color: white;
-    padding: 10px 30px;
+    padding: 20px 150px;
     border: none;
     margin-bottom: 30px;
     border-radius: 10px;
+    font-size: 18px;
 }
 
 button:hover {

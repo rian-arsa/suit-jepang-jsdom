@@ -1,11 +1,12 @@
-# suit-jepang-jsdom
+# suit-jepang-jsdom v.2
 
 LINK : https://suit-jepang-jsdom.vercel.app/
 
 SEBELUM MAIN :
+![image](https://user-images.githubusercontent.com/55070460/182277465-88abb2f6-0881-4fb3-b1e1-2d3fde5f51b9.png)
 
-![image](https://user-images.githubusercontent.com/55070460/181789152-52e19a0f-55f5-4d13-bccd-97e424e99c1b.png)
 
 HASIL PERTANDINGAN
 
-![image](https://user-images.githubusercontent.com/55070460/181789331-7243ec8e-6460-4b90-aa72-b6c262c57ff8.png)
+![image](https://user-images.githubusercontent.com/55070460/182277500-c922a789-3e7b-40c5-ad4e-12e14a0e69c8.png)
+
